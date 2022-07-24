@@ -1,0 +1,70 @@
+﻿<Page
+    x:Class="FinalProjectV1.Pages.HelpPage"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:FinalProjectV1.Pages"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d"
+    Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
+
+    <Grid Name="HelpPageGrid" Background="Bisque">
+        
+        <Grid.RowDefinitions>
+            <RowDefinition></RowDefinition>
+            <RowDefinition></RowDefinition>
+            <RowDefinition></RowDefinition>
+            <RowDefinition></RowDefinition>
+            <RowDefinition></RowDefinition>
+            <RowDefinition></RowDefinition>
+        </Grid.RowDefinitions>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition></ColumnDefinition>
+            <ColumnDefinition></ColumnDefinition>
+            <ColumnDefinition></ColumnDefinition>
+            <ColumnDefinition></ColumnDefinition>
+            <ColumnDefinition></ColumnDefinition>
+            <ColumnDefinition></ColumnDefinition>
+            <ColumnDefinition></ColumnDefinition>
+            <ColumnDefinition></ColumnDefinition>
+        </Grid.ColumnDefinitions>
+        <Border BorderThickness="4" Opacity="0.7" Grid.Row="1" Grid.RowSpan="4" Grid.ColumnSpan="6" Grid.Column="1" Margin="3" Background="WhiteSmoke"></Border>
+
+        <Viewbox Grid.Column="0" Grid.Row="0">
+            <Button x:Name="BackHomeButon" VerticalAlignment="Stretch" HorizontalAlignment="Center" Background="Transparent" Click="BackButton_Click"  >
+                <Image Source="ms-appx:///Assets/Buttons/ReturnHome.png"></Image>
+            </Button>
+        </Viewbox>
+
+        <Viewbox Grid.Row="0" Grid.Column="3" Grid.ColumnSpan="2">
+            <TextBlock Text="Help" FontFamily="Times New Roman" ></TextBlock>
+        </Viewbox>
+        <ScrollViewer Grid.Column="1" Grid.Row="1" Grid.ColumnSpan="6" Grid.RowSpan="4" VerticalScrollBarVisibility="Visible" VerticalScrollMode="Enabled">
+
+          
+        <StackPanel >
+            <TextBlock x:Name="HelpText" TextWrapping="Wrap" FontSize="30" FontStretch="UltraCondensed" FontFamily="Arial Black" Foreground="Black" Text="In my game the goal is to jump on stairs coming from the sky inside a tower as the
+                       &#x0a;stairs move down at a certain pace. As you progress in the game the speed increases.
+                       &#x0a;When you fall from one of the stairs you  lose.
+                       &#x0a;When entering the game there is a registration or login button. If you do not have a
+                       &#x0a;user you must register and then log in to the game. If you have a user you need
+                       &#x0a;to connect with him and then start playing.
+                       &#x0a;&#x0a;The main menu has a play button, and when you click on it, you start the game on
+                       &#x0a;the base step. The purpose of the game is to jump on the stairs and achieve coins.
+                       &#x0a;Another button is the store button.
+                       &#x0a;In the store you can buy different characters and different backgrounds with
+                       &#x0a; the coins that you achieve in the game. In the menu there is MyPlayer button. In the MyPlayer
+                       &#x0a;there are the characters and backgrounds that you acheived, and you can switch there bitween them.
+                       &#x0a;Moreover, there is information about each character in the MyPlayer.
+                       &#x0a;To achieve coins in games you must be in the game and
+                       &#x0a;start jumping on stairs. While you play random coins will drom from the top of the game
+                       &#x0a; and when you hit it you achieve the coins. There are 3 types of coins- bronze, silver
+                       &#x0a; and gold. Bronze- 10 coins, silver-50 coins, gold- 100 coins.
+                       &#x0a;Another button is the scoreboard button. On this page you can see the top 3 ranking
+                       &#x0a;of the participants in the game who scored the most points."
+                              ></TextBlock>
+        </StackPanel>
+        </ScrollViewer>
+        
+    </Grid>
+</Page>

@@ -1,0 +1,54 @@
+﻿<Page
+    x:Class="FinalProjectV1.Pages.GamePage"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:FinalProjectV1.Pages"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d"
+    Loaded="Page_Loaded"
+    Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
+
+    
+       
+    
+    <Grid   Name="information" Background="Black"> 
+        <Grid.RowDefinitions>
+            <RowDefinition Height="0.5*" ></RowDefinition>
+            <RowDefinition Height="7*"></RowDefinition>
+
+        </Grid.RowDefinitions>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition></ColumnDefinition>
+            <ColumnDefinition></ColumnDefinition>
+            <ColumnDefinition></ColumnDefinition>
+            <ColumnDefinition></ColumnDefinition>
+            <ColumnDefinition></ColumnDefinition>
+            <ColumnDefinition></ColumnDefinition>
+        </Grid.ColumnDefinitions>
+        <Viewbox VerticalAlignment="Top"  Grid.Column="0" Grid.Row="0">
+            <AppBarButton x:Name="home" VerticalAlignment="Top" Content="Back Home"  Click="home_Click" Background="White"></AppBarButton>
+        </Viewbox>
+        <Viewbox  VerticalAlignment="Top" Margin="5,10,5,18" Grid.Column="1" Grid.Row="0">
+            <TextBlock Name="ScoreText" VerticalAlignment="Top" Text="score:  " Foreground="White" ></TextBlock>
+        </Viewbox>
+        
+        <Viewbox VerticalAlignment="Top" Margin="5,10,5,18" Grid.Column="3" Grid.Row="0">
+            <TextBlock Name="CoinsText" VerticalAlignment="Top" Text="balance: " Foreground="White"></TextBlock>
+        </Viewbox>
+
+        <Viewbox VerticalAlignment="Top" Margin="5,10,5,18" Grid.Column="2" Grid.Row="0">
+            <TextBlock Name="HighScoreText" VerticalAlignment="Top" Text="High Score: " Foreground="White"></TextBlock>
+        </Viewbox>
+
+        <Canvas Grid.Column="0" Grid.Row="1" Grid.ColumnSpan="6" Name="arena">
+            <Canvas.Background >
+                <ImageBrush x:Name="BackgroundGame"></ImageBrush>
+            </Canvas.Background>
+        </Canvas>
+    </Grid>
+
+
+
+
+</Page>

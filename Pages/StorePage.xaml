@@ -1,0 +1,124 @@
+﻿<Page
+    x:Class="FinalProjectV1.Pages.StorePage"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:FinalProjectV1.Pages"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d" Loaded="Page_Loaded"
+    Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
+
+    <Grid>
+       
+
+        <Grid Name="GridStorePage" Grid.Column="0" Margin="5,0,-5,0">
+            <Grid.Background>
+                <ImageBrush ImageSource="ms-appx:///Assets/BrownBrickWall.jpg"></ImageBrush>
+            </Grid.Background>
+            <Grid.RowDefinitions>
+                <RowDefinition></RowDefinition>
+                <RowDefinition></RowDefinition>
+                <RowDefinition></RowDefinition>
+                <RowDefinition></RowDefinition>
+                <RowDefinition></RowDefinition>
+                <RowDefinition></RowDefinition>
+                <RowDefinition></RowDefinition>
+                <RowDefinition></RowDefinition>
+                <RowDefinition></RowDefinition>
+                <RowDefinition></RowDefinition>
+            </Grid.RowDefinitions>
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition></ColumnDefinition>
+                <ColumnDefinition></ColumnDefinition>
+                <ColumnDefinition></ColumnDefinition>
+                <ColumnDefinition></ColumnDefinition>
+                <ColumnDefinition></ColumnDefinition>
+                <ColumnDefinition></ColumnDefinition>
+                <ColumnDefinition></ColumnDefinition>
+                <ColumnDefinition></ColumnDefinition>
+            </Grid.ColumnDefinitions>
+            <Viewbox Grid.Column="0" Grid.Row="0">
+            <Button x:Name="BackHomeButon" VerticalAlignment="Stretch" HorizontalAlignment="Center" Background="Transparent" Click="BackButton_Click">
+                <Image Source="ms-appx:///Assets/Buttons/ReturnHome.png"></Image>
+            </Button>
+            </Viewbox>
+            <Viewbox Grid.Column="3" Grid.ColumnSpan="2" Grid.Row="0" Grid.RowSpan="2" HorizontalAlignment="Stretch" VerticalAlignment="Stretch" Stretch="Fill">
+                <Image Source="ms-appx:///Assets/StoreTitle.png"></Image>
+            </Viewbox>
+            
+            <!--<Viewbox Grid.Column="0" Grid.ColumnSpan="1" Grid.RowSpan="2" Grid.Row="2" VerticalAlignment="Center" HorizontalAlignment="Center">
+                <Image Source="ms-appx:///Assets/Characters/Boy/IdleBoy1.gif"></Image>
+            </Viewbox>
+            <Viewbox Grid.Column="1" Grid.Row="2">
+                <Button x:Name="BuyChild" Content="Owned" IsEnabled="False" FontWeight="SemiBold"  Background="SandyBrown" BorderBrush="Black" BorderThickness="2" CornerRadius="10" Click="BuyChild_Click" ></Button>
+            </Viewbox>
+            <Viewbox Grid.Column="1" Grid.Row="3">
+                <TextBlock Text="price: 0" FontFamily="David" ></TextBlock>
+            </Viewbox>-->
+            <Viewbox Grid.Column="0" Grid.ColumnSpan="1" Grid.RowSpan="2" Grid.Row="2" VerticalAlignment="Center" HorizontalAlignment="Center">
+                <Image Source="ms-appx:///Assets/Characters/Santa/IdleSanta.gif"></Image>
+            </Viewbox>
+            <Viewbox Grid.Column="1" Grid.Row="2">
+                <Button x:Name="BuySanta" Content="Buy" FontWeight="SemiBold" Background="SandyBrown" BorderBrush="Black" BorderThickness="2" CornerRadius="10" Click="BuySanta_Click" ></Button>
+            </Viewbox>
+            <Viewbox Grid.Column="1" Grid.Row="3">
+                <TextBlock Text="price: 750" FontFamily="David" ></TextBlock>
+            </Viewbox>
+            <Viewbox Grid.Column="6" Grid.ColumnSpan="1" Grid.RowSpan="2" Grid.Row="2" VerticalAlignment="Center" HorizontalAlignment="Center">
+                <Image Source="ms-appx:///Assets/Characters/Dino/IdleDinoRight.gif"></Image>
+            </Viewbox>
+            <Viewbox Grid.Column="7" Grid.Row="2">
+                <Button x:Name="BuyDino" FontWeight="SemiBold"  Content="Buy" Background="SandyBrown" BorderBrush="Black" BorderThickness="2" CornerRadius="10" Click="BuyDino_Click" ></Button>
+            </Viewbox>
+            <Viewbox Grid.Column="7" Grid.Row="3" Margin="10">
+                <TextBlock Text="price: 5000" FontFamily="David" ></TextBlock>
+            </Viewbox>
+            <Viewbox Grid.Column="3" Grid.ColumnSpan="1" Grid.RowSpan="2" Grid.Row="2" VerticalAlignment="Center" HorizontalAlignment="Center">
+                <Image Source="ms-appx:///Assets/Characters/Robot/IdleRobot.gif"></Image>
+            </Viewbox>
+            <Viewbox Grid.Column="4" Grid.Row="2">
+                <Button x:Name="BuyRobot" FontWeight="SemiBold" Content="Buy" Background="SandyBrown" BorderBrush="Black" BorderThickness="2" CornerRadius="10" Click="BuyRobot_Click" ></Button>
+            </Viewbox>
+            <Viewbox Grid.Column="4" Grid.Row="3" Grid.ColumnSpan="1">
+                <TextBlock Text="Price: 1000" FontFamily="David"></TextBlock>
+            </Viewbox>
+            <Viewbox Grid.Column="7" Margin="10,10,90,10">
+                <Image Source="ms-appx:///Assets/Coin.png"></Image>
+            </Viewbox>
+            <Viewbox Grid.Row="0" Grid.Column="6" Margin="10">
+                <TextBlock Text="coins: " Name="CoinText" FontFamily="David"></TextBlock>
+            </Viewbox>
+            
+            <Viewbox Grid.Column="0" Grid.Row="6" Grid.RowSpan="2" VerticalAlignment="Center" HorizontalAlignment="Center" Margin="20,10,20,10">
+                <Image Source="ms-appx:///Assets/Backgrounds/BlueBackground.gif"></Image>
+            </Viewbox>
+            <Viewbox Grid.Column="3" Grid.Row="6" Grid.RowSpan="2" VerticalAlignment="Center" HorizontalAlignment="Center" Margin="20,10,20,10">
+                <Image Source="ms-appx:///Assets/Backgrounds/PurpleRainBackground.gif"></Image>
+            </Viewbox>
+            <Viewbox Grid.Column="6" Grid.Row="6" Grid.RowSpan="2" VerticalAlignment="Center" HorizontalAlignment="Center" Margin="20,10,20,10">
+                <Image Source="ms-appx:///Assets/Backgrounds/redBackground.gif"></Image>
+            </Viewbox>
+
+            <Viewbox Grid.Column="1" Grid.Row="6">
+                <Button x:Name="BuyBlueBackground" Click="BuyBlueBackground_Click" Content="Buy" FontWeight="SemiBold" Background="SandyBrown" BorderBrush="Black" BorderThickness="2" CornerRadius="10"  ></Button>
+            </Viewbox>
+            <Viewbox Grid.Column="4" Grid.Row="6">
+                <Button x:Name="BuyPurpleBackground" Click="BuyPurpleBackground_Click" Content="Buy" FontWeight="SemiBold" Background="SandyBrown" BorderBrush="Black" BorderThickness="2" CornerRadius="10"  ></Button>
+            </Viewbox>
+            <Viewbox Grid.Column="7" Grid.Row="6">
+                <Button x:Name="BuyRedBackground" Click="BuyRedBackground_Click" Content="Buy" FontWeight="SemiBold" Background="SandyBrown" BorderBrush="Black" BorderThickness="2" CornerRadius="10"  ></Button>
+            </Viewbox>
+
+            <Viewbox Grid.Column="1" Grid.Row="7">
+                <TextBlock Text="price: 500" FontFamily="David" ></TextBlock>
+            </Viewbox>
+            <Viewbox Grid.Column="4" Grid.Row="7">
+                <TextBlock Text="price: 700" FontFamily="David" ></TextBlock>
+            </Viewbox>
+            <Viewbox Grid.Column="7" Grid.Row="7" Margin="10">
+                <TextBlock Text="price: 900" FontFamily="David" ></TextBlock>
+            </Viewbox> 
+        </Grid>
+
+    </Grid>
+</Page>
