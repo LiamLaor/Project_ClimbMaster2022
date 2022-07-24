@@ -1,0 +1,207 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1" MembersFormat="NameAndType">
+  <Class Name="FinalProjectV1.App" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="16" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAQAAAQAAIAAA=</HashCode>
+      <FileName>App.xaml.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="FinalProjectV1.MenuPage" BaseTypeListCollapsed="true">
+    <Position X="22.5" Y="4.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>CAAAAAACABAAAAQAAAAAAAVgAAAAAAAAAACAAAAAAQA=</HashCode>
+      <FileName>MenuPage.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="FinalProjectV1.LoginPage" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="13.5" Y="0.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAIAAIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACAAAQA=</HashCode>
+      <FileName>Pages\LoginPage.xaml.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Orientation="Left" Position="0.491" Collapsed="true" />
+  </Class>
+  <Class Name="FinalProjectV1.OptionPage" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="16.25" Y="2" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ABAAAAAAAAAAAAAAAAAAAAQAAQAAAAAAAAAAACAAAQA=</HashCode>
+      <FileName>Pages\OptionPage.xaml.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="FinalProjectV1.Pages.BaseClass" Collapsed="true">
+    <Position X="7.25" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAIQAAAAAAAIAAIAAREAGAQAAAAEAAAAAAAAA=</HashCode>
+      <FileName>Classes\BaseClass.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="FinalProjectV1.Pages.GamePage" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="16.5" Y="0.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAKAAAAAAAAAAIAAAAAAwEAQAABAAAAAAgQAAQAQA=</HashCode>
+      <FileName>Pages\GamePage.xaml.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="FinalProjectV1.Pages.HelpPage" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="16.5" Y="5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAACAAAQA=</HashCode>
+      <FileName>Pages\HelpPage.xaml.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="FinalProjectV1.Pages.Logout" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="14.75" Y="4.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Pages\Logout.xaml.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="FinalProjectV1.Pages.MyPlayerPage" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="12.75" Y="5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAIAQIAEAEgAgAACEQAAQgAAAEAAAKAACAAAQA=</HashCode>
+      <FileName>Pages\MyPlayerPage.xaml.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="FinalProjectV1.Pages.RegisterPage" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="20.5" Y="5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACAAAQI=</HashCode>
+      <FileName>Pages\RegisterPage.xaml.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="FinalProjectV1.Pages.ScoreboardPage" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="21.5" Y="2.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAACAAAAAAAAAAAAAAAAQAAQAAAAAAAAAAACAAAQE=</HashCode>
+      <FileName>Pages\ScoreboardPage.xaml.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="FinalProjectV1.Pages.StorePage" BaseTypeListCollapsed="true">
+    <Position X="18.25" Y="3.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>BAAAAAAAAAAAAAAAACAAGAQAQQAAAAAAAIQEBCEAAQA=</HashCode>
+      <FileName>Pages\StorePage.xaml.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="FinalProjectV1.Classes.Boy" Collapsed="true">
+    <Position X="12.75" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Classes\Boy.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="FinalProjectV1.Classes.Character" Collapsed="true">
+    <Position X="9.25" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ABAAEAEAMwAAAAAAAAAAABAACAAAAAAEAAAEAAgAAIA=</HashCode>
+      <FileName>Classes\Character.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="FinalProjectV1.Classes.Coin" Collapsed="true">
+    <Position X="11" Y="0.5" Width="1.5" />
+    <NestedTypes>
+      <Enum Name="FinalProjectV1.Classes.Coin.CoinType" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>Classes\Coin.cs</NewMemberFileName>
+        </TypeIdentifier>
+      </Enum>
+    </NestedTypes>
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAQAAAAAAAAAAAAAAAAABAAAAAAQAQAAAAAA=</HashCode>
+      <FileName>Classes\Coin.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="FinalProjectV1.Classes.Dino">
+    <Position X="5.25" Y="4" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Classes\Dino.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="FinalProjectV1.Classes.GlobalData" Collapsed="true">
+    <Position X="20.5" Y="1" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Classes\GlobalData.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="FinalProjectV1.Classes.Manager" Collapsed="true">
+    <Position X="19.25" Y="1.75" Width="1.5" />
+    <NestedTypes>
+      <Enum Name="FinalProjectV1.Classes.Manager.StairType" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>Classes\Manager.cs</NewMemberFileName>
+        </TypeIdentifier>
+      </Enum>
+    </NestedTypes>
+    <TypeIdentifier>
+      <HashCode>AAAIAICAQAACQEwABAAEwggAAAVgAAAAAQQAAYAUEQE=</HashCode>
+      <FileName>Classes\Manager.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="FinalProjectV1.Classes.MovingStair">
+    <Position X="1.5" Y="3.25" Width="1.5" />
+    <InheritanceLine Type="FinalProjectV1.Classes.Stair" ManuallyRouted="true" FixedToPoint="true">
+      <Path>
+        <Point X="4" Y="2.684" />
+        <Point X="4" Y="2.875" />
+        <Point X="3.24" Y="2.875" />
+        <Point X="3.24" Y="3.378" />
+        <Point X="3" Y="3.378" />
+      </Path>
+    </InheritanceLine>
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Classes\MovingStair.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="FinalProjectV1.Classes.RegularStair">
+    <Position X="3.5" Y="3.25" Width="1.5" />
+    <InheritanceLine Type="FinalProjectV1.Classes.Stair" FixedToPoint="true">
+      <Path>
+        <Point X="4" Y="2.684" />
+        <Point X="4" Y="2.875" />
+        <Point X="5" Y="2.875" />
+        <Point X="5" Y="3.25" />
+      </Path>
+    </InheritanceLine>
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Classes\RegularStair.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="FinalProjectV1.Classes.Robot">
+    <Position X="7.25" Y="3" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Classes\Robot.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="FinalProjectV1.Classes.Santa">
+    <Position X="11" Y="3.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Classes\Santa.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="FinalProjectV1.Classes.Stair">
+    <Position X="3.25" Y="1" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Classes\Stair.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>
